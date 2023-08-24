@@ -20,4 +20,5 @@ task:
     - sudo apt install bc python2 pigz -y
     - git clone --depth=1 https://github.com/mizdrake7/Graveyard_r5x -b uclamp_tuning k
     - cd k
+    - export TZ=Asia/Kolkata 
     - bash build.sh
