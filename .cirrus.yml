@@ -9,8 +9,8 @@ task:
   timeout_in: 120m
   container:
     image: nexgang/ubuntu:latest
-    cpu: 8
-    memory: 16G
+    cpu: 4
+    memory: 8G
     stateful: true
     greedy: true
   Build_script:
