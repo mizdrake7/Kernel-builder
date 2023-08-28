@@ -10,7 +10,7 @@ task:
   container:
     image: nexgang/ubuntu:latest
     cpu: 4
-    memory: 8G
+    memory: 16G
     stateful: true
     greedy: true
   Build_script:
