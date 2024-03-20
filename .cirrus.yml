@@ -24,5 +24,6 @@ task:
     - echo -e "\e[1;34mZYC Clang\e[0m \e[1;32mis set up successfully.\e[0m"
     - git clone --depth=1 https://github.com/mizdrake7/Graveyard_r5x -b Nethunter k
     - cd k
+    - export TZ=Asia/Kolkata
     - bash build.sh
     - echo -e "\e[1;32mKernel build successfully.\e[0m \e[1;36mFlash and enjoy!\e[0m"
