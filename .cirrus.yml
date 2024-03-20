@@ -22,7 +22,7 @@ task:
     - wget https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240320-release/Clang-19.0.0git-20240320.tar.gz
     - tar -xzvf Clang-19.0.0git-20240320.tar.gz -C /home/tc/zyc_clang
     - echo -e "\e[1;34mZYC Clang\e[0m \e[1;32mis set up successfully.\e[0m"
-    - git clone --depth=1 https://github.com/mizdrake7/Graveyard_r5x -b 14 k
+    - git clone --depth=1 https://github.com/mizdrake7/Graveyard_r5x -b 14 Nethunter
     - cd k
     - bash build.sh
     - echo -e "\e[1;32mKernel build successfully.\e[0m \e[1;36mFlash and enjoy!\e[0m"
