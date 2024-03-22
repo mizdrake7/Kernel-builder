@@ -20,6 +20,6 @@ task:
     - sudo apt install bc python2 pigz -y
     - git clone --depth=1 --single-branch https://github.com/mizdrake7/Graveyard_r5x -b Nethunter k
     - cd k
-    - export TZ=Asia/Kolkata
+    - ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime  
     - bash build.sh
     - echo -e "\e[1;32mKernel build successfully.\e[0m \e[1;36mFlash and enjoy!\e[0m"
