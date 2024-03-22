@@ -19,10 +19,10 @@ task:
     - sudo apt upgrade -y
     - sudo apt install bc python2 pigz -y
     - mkdir -p /home/tc/zyc_clang
-    - wget https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240320-release/Clang-19.0.0git-20240320.tar.gz
-    - tar -xzvf Clang-19.0.0git-20240320.tar.gz -C /home/tc/zyc_clang
+    - wget https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240322-release/Clang-19.0.0git-20240322.tar.gz
+    - tar -xzvf Clang-19.0.0git-20240322.tar.gz -C /home/tc/zyc_clang
     - echo -e "\e[1;34mZYC Clang\e[0m \e[1;32mis set up successfully.\e[0m"
-    - git clone --depth=1 https://github.com/mizdrake7/Graveyard_r5x -b Nethunter k
+    - git clone --depth=1 --single-branch https://github.com/mizdrake7/Graveyard_r5x -b Nethunter k
     - cd k
     - export TZ=Asia/Kolkata
     - bash build.sh
