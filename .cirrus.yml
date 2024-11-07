@@ -18,7 +18,7 @@ task:
     - sudo apt update
     - sudo apt upgrade -y
     - sudo apt install bc python2 pigz -y
-    - git clone --depth=1 --single-branch https://github.com/mizdrake7/Graveyard_r5x -b 14 k
+    - git clone --depth=1 --single-branch https://github.com/itsprofessorX/kernel_realme_r5x.git -b LA.UM.9.1 k
     - cd k
     - ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime  
     - bash build.sh
